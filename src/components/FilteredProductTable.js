@@ -6,7 +6,8 @@ class FilteredProductTable extends React.Component {
   render() {
     return (
       <>
-        
+        <SearchBar products={this.props.products.data} />
+        <ProductTable products={this.props.products.data}/>
       </>
     )
   }
